@@ -13,14 +13,14 @@ rl.question('What\'s your name? Nicknames are also acceptable :) ', (name1) => {
             rl.question('What is your superpower? In a few words, tell us what you are amazing at!', (superpower) => {
               profile.push(name1, activity, music, meal, food, sport, superpower);
               console.log(`Thank you for ypur responses`);
-              console.log(`Profile: ${profile[0]} loves listening to ${profile[2]} while doing ${profile[1]}, devouring ${profile[4]} for ${profile[5]}, prefers ${profile[6]} over any other sport, and is amazing at ${profile[7]} at inopportune times.`);
+              console.log(`Profile: ${profile[0]} loves listening to ${profile[2]} while doing ${profile[1]}, devouring ${profile[4]} for ${profile[3]}, prefers ${profile[5]} over any other sport, and is amazing at ${profile[6]} at inopportune times.`);
               rl.close();
-            });  
-          }); 
+            });
+          });
         });
       });
     });
   });
-});  
+});
 
 
